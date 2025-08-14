@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portfolio-allocation-analysis"
+version = "0.1.0"
+description = "A concise, reproducible toolkit for mean-variance portfolio allocation, risk metrics, and scenario analysis with a simple CLI and examples."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Your Name"}]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "scipy>=1.10"
+]
+
+[project.scripts]
+portfolio-analyzer = "portfolio_allocation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

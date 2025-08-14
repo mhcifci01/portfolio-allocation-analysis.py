@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.dist/
+.build/
+.eggs/
+*.egg
+.env
+.venv
+venv/
+ENV/
+.ipynb_checkpoints/
+*.log
+*.sqlite3
+# OS
+.DS_Store
+Thumbs.db
+# IDE
+.vscode/
+.idea/
+# Jupyter
+*.nbconvert.ipynb
