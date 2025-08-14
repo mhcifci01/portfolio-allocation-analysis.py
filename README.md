@@ -84,21 +84,6 @@ portfolio-allocation-analysis/
 └── LICENSE
 ```
 
-## GitHub instructions
-
-1. Initialize and commit:
-```bash
-git init
-git add .
-git commit -m "feat: initial project scaffold for Portfolio Allocation Analysis (CLI, core library, tests, sample data, docs)"
-git branch -M main
-```
-
-2. Create a new repository on GitHub named `portfolio-allocation-analysis` and add it as remote:
-```bash
-git remote add origin https://github.com/<YOUR_USERNAME>/portfolio-allocation-analysis.git
-git push -u origin main
-```
 
 ## Notes
 - Sample data are synthetic yet realistic daily log returns for 5 assets over ~3 years.
